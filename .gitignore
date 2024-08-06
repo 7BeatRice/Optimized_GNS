@@ -1,0 +1,50 @@
+# Ignore venv
+GNS/venv/
+# Ignore loss data
+optimization_job
+
+# Ignore default previous models
+GNS/water_2d_barriers/default/previous_models
+# Ignore collective optimization previous models
+GNS/water_2d_barriers/balance1.0/previous_models
+GNS/water_2d_barriers/balance2.0/previous_models
+GNS/water_2d_barriers/balance3.0/previous_models
+GNS/water_2d_barriers/collective_mean_loss/previous_models
+GNS/water_2d_barriers/collective_training_time/previous_models
+
+# Ignore batch size optimization previous models
+GNS/water_2d_barriers/batch_size/bs=1/previous_models
+GNS/water_2d_barriers/batch_size/bs=4/previous_models
+GNS/water_2d_barriers/batch_size/bs=5/previous_models
+GNS/water_2d_barriers/batch_size/bs=10/previous_models
+
+# Ignore connectivity radius optimization previous models
+GNS/water_2d_barriers/connectivityRadius/cr=0.1/previous_models
+GNS/water_2d_barriers/connectivityRadius/cr=0.01/previous_models
+GNS/water_2d_barriers/connectivityRadius/cr=0.02/previous_models
+GNS/water_2d_barriers/connectivityRadius/cr=0.03/previous_models
+GNS/water_2d_barriers/connectivityRadius/cr=0.04/previous_models
+GNS/water_2d_barriers/connectivityRadius/cr=0.05/previous_models
+GNS/water_2d_barriers/connectivityRadius/cr=0.08/previous_models
+GNS/water_2d_barriers/connectivityRadius/cr=0.015/previous_models
+
+# Ignore layers optimization previous models
+GNS/water_2d_barriers/layers/layer=1/previous_models
+GNS/water_2d_barriers/layers/layer=3/previous_models
+GNS/water_2d_barriers/layers/layer=4/previous_models
+
+# Ignore inital learning rate optimization previous models
+GNS/water_2d_barriers/Learning_rate_int/lr_int=1e-3/previous_models
+GNS/water_2d_barriers/Learning_rate_int/lr_int=1e-5/previous_models
+
+# Ignore learning rate decay optimization previous models
+GNS/water_2d_barriers/learningRateDecay/lr_decay=0.2/previous_models
+GNS/water_2d_barriers/learningRateDecay/lr_decay=0.02/previous_models
+GNS/water_2d_barriers/learningRateDecay/lr_decay=0.5/previous_models
+GNS/water_2d_barriers/learningRateDecay/lr_decay=0.05/previous_models
+
+# Ignore message passing steps optimization previous models
+GNS/water_2d_barriers/message_passing/mp=7/previous_models
+GNS/water_2d_barriers/message_passing/mp=12/previous_models
+GNS/water_2d_barriers/message_passing/mp=15/previous_models
+GNS/water_2d_barriers/message_passing/mp=20/previous_models
